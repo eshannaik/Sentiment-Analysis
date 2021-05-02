@@ -6,6 +6,8 @@ _________________________________________________________________________
 #### A few visualizations are done in the project.
 #### Proprocessing consists of Tokenization,Lemitization, and removing Stopwords and emoji.
 #### The split between traina and test is 70-30.
+
+_________________________________________________________________________
 #### The main goal of the project was to do sentiment analysis using:
     LSTM
     Naive Bayes
