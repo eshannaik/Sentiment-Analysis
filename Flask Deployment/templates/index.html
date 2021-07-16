@@ -1,0 +1,22 @@
+<!Doctype Html>
+	<html>
+		<head>
+			<title>SENTIMENT ANALYSIS</title>
+			<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='1.css') }}">
+		</head>
+
+		<body>
+			<center><h1>Sentiment Analysis of tweets.</h1></center>
+			<h3>Input tweet into the below input field.</h3>
+			<form method ="POST" id="Answer" action="{{ url_for('prediction')}}">
+				<br>
+				<div>
+					Input Tweet:
+				</div>
+				<textarea name="Tweet" id="InputField"></textarea>
+				<br>
+				<input type="submit">
+				<br><br>
+			</form>
+		</body>
+	</html>
